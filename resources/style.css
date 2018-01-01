@@ -1,5 +1,6 @@
 .banner{
   display: flex;
+  border-width: 1px;
 }
 
 .banner nav li{
@@ -11,4 +12,29 @@ h1{
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+}
+
+.column{
+  display: flex;
+  border-width: 4px;
+  border-style: solid;
+  
+}
+
+.column .large{
+  width: 630px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.column .medium{
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.column .small{
+  width:240px;
+  border-width: 2px;
+  border-style: solid;
 }
