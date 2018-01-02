@@ -41,3 +41,40 @@ nav span{
   display:inline-block;
   padding: 20px 10px;
 }
+
+/**Below is main content css code**/
+.content{
+  display: flex;
+}
+
+.column{
+  display: flex;
+  margin-right: 32px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+.column .large{
+  width: 630px;
+}
+
+.column .medium{
+  width: 300px;
+}
+
+.column .small{
+  width: 240px;
+}
+
+/* Add images - Step 3*/
+image-content{
+  height: 300px;
+  margin-top: 50px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
